@@ -1,11 +1,10 @@
 /* место для вашего кода */
 
 .header {
-  padding: 85px 50px 88px;
+  padding: 77px 50px 93px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   width: 1100px;
-  min-height: 293px;
   align-items: center;
 }
 
@@ -54,7 +53,6 @@
 .address {
   font-style: normal;
   width: 240px;
-  min-height: 98px;
   justify-self: end;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -157,7 +155,6 @@
   border: 1px solid rgba(255, 255, 255, 1);
   width: 256px;
   min-height: 51px;
-  top: 656px;
   cursor: pointer;
 }
 
@@ -172,17 +169,15 @@
 
 .lots {
   margin-top: 180px;
-  margin-bottom: 89px;
+  margin-bottom: 119px;
   padding-left: 24px;
   padding-right: 24px;
   width: 1100px;
-  min-height: 757px;
 }
 
 .lots__heading {
   font-family: Raleway, sans-serif;
   width: 121px;
-  min-height: 47px;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
@@ -197,6 +192,7 @@
   list-style: none;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .card {
